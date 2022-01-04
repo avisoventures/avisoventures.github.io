@@ -18,5 +18,6 @@
 <div>{{ range . }}<a class="btn btn-light" href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>{{ end }}</div>
 {{ end }}
 </div>
+{{ partial "subscribe.html" . }}
 </div>
 {{ partial "footer.html" . }}
