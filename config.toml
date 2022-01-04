@@ -4,3 +4,6 @@ title = 'Aviso Ventures'
 enableRobotsTXT = true
 copyright = "&copy; Aviso Ventures"
 googleAnalytics = 'G-MEASUREMENT_ID'
+
+[taxonomies]
+  author = "author"
