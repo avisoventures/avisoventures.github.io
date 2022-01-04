@@ -1,0 +1,4 @@
+
+serve:
+	hugo --buildDrafts server
+
