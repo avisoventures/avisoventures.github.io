@@ -1,5 +1,5 @@
 ---
-title: Controling Dilution 6 - Sell the Company
+title: Controlling Dilution 6 - Sell the Company
 description: Sometimes doing another round just isn't worth it 
 author: Nick Galbreath
 date: 2022-01-21
