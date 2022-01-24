@@ -5,15 +5,17 @@ author: Andrew Peterson
 date: 2022-01-21
 keywords: [ dilution ]
 ---
+This is part of a series on controling founder dilution during fundraising.
+
 This was probably the one I was the least prepared for when it came to dilution management and I have my seed funder Michael Dearing from Harrison Metal to thank for this lesson. When you start the company you will create a pool of equity that you set aside for employees instead of just granting shares each time a new employee starts (like I thought happened). This is a structure that makes it much simpler to manage new employee equity grants. 
 
 The real tip here is that the investors will want you to create this pool to be as large as possible as it gets created prior to their investment (aka they don’t dilute when the pool gets created) and the more equity that is in the pool before they invest, the less they will dilute in the future if more equity needs to be added to the pool for new employees. So, unless you have a clear, bottoms up hiring plan that calculates your expected dilution, you’ll likely be at the whim of the investor to tell you what the pool needs to be and have no way to push back. 
 
 So go do this:
 
-* Build a hiring model for the next 18 months for all your expected hires. 
+* Build a hiring model for the next 18 months for all your expected hires.
 * Use any source of information you can to predict the amount of equity that you’ll need to grant those employees and add it up.
-* Add a 25-30% buffer for being wrong on amount per employee or expected hires
+* Add a 25-30% buffer for being wrong on amount per employee or expected hires.
 
 And there you have your option pool plan. 
 

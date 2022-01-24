@@ -5,6 +5,8 @@ author: Andrew Peterson
 date: 2022-01-21
 keywords: [ dilution ]
 ---
+This is part of series on controling founder dilution during fundraising.
+
 Debt basically means you’re raising money from a bank/financial entity that will loan you money that you will have to pay back in the future but that you can use to finance growth of your company instead of having to sell equity and dilute the company. This is an intuitive concept but a relatively uncommon path for raising money so I find it to be something a lot of founders I know don’t think about as much. 
 
 The general trend and advice I’d give is to create a mixed source of capital as you raise money and grow your company and (potentially) lean heavier on debt as you grow the company's revenue over time. This may mean that in your series B round, for example, you raise 20 million in equity and 5 million in debt and get to announce a 25 million round but only have 20m of that round be dilutive. In your C you might have a higher percentage debt than your previous round. As you grow your revenue (especially recurring revenue) your risk as an entity to loan money to goes down and the rate you can get the money loaned to you becomes more and more preferential. Investors typically don’t want your company to do this cause it means they get to own less of the company thus you don’t see as many first time founders using debt as a fund raising source. Mixing your source of capital will help you reduce dilution. 
