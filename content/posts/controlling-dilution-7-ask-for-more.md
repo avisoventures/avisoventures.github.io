@@ -1,6 +1,6 @@
 ---
 title: Controling Dilution 7 - Ask The Board for More
-description: Get more ownership by asking the board a new option grant
+description: Get more ownership by asking the board for a new option grant.  It's worth a try.
 author: Nick Galbreath
 date: 2022-01-24
 keywords: [ dilution ]
