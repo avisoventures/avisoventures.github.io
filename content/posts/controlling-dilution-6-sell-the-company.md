@@ -2,7 +2,7 @@
 title: Controling Dilution 6 - Sell the Company
 description: Sometimes doing another round just isn't worth it 
 author: Nick Galbreath
-date: 2022-01-24
+date: 2022-01-21
 keywords: [ dilution ]
 ---
 This article is part of a series on controling founder dilution.
