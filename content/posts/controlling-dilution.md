@@ -1,5 +1,5 @@
 ---
-title: Controlling Dilution - Top 5 Ways
+title: Controlling Dilution - The Series
 description: As fundraising happens, the founder's stake in the company slowly shrinks.  How can you control it and get a better exit? 
 author: Andrew Peterson
 date: 2022-01-21
