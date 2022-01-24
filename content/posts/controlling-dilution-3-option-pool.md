@@ -5,7 +5,7 @@ author: Andrew Peterson
 date: 2022-01-21
 keywords: [ dilution ]
 ---
-This is part of a series on controling founder dilution during fundraising.
+This is part of a series on [controlling founder dilution]({{< ref "/posts/controlling-dilution" >}})  during fundraising.
 
 This was probably the one I was the least prepared for when it came to dilution management and I have my seed funder Michael Dearing from Harrison Metal to thank for this lesson. When you start the company you will create a pool of equity that you set aside for employees instead of just granting shares each time a new employee starts (like I thought happened). This is a structure that makes it much simpler to manage new employee equity grants. 
 

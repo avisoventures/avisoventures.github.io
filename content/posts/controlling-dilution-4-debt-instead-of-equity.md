@@ -5,7 +5,7 @@ author: Andrew Peterson
 date: 2022-01-21
 keywords: [ dilution ]
 ---
-This is part of series on controling founder dilution during fundraising.
+This is part of series on [controlling founder dilution]({{< ref "/posts/controlling-dilution" >}}) during fundraising.
 
 Debt basically means you’re raising money from a bank/financial entity that will loan you money that you will have to pay back in the future but that you can use to finance growth of your company instead of having to sell equity and dilute the company. This is an intuitive concept but a relatively uncommon path for raising money so I find it to be something a lot of founders I know don’t think about as much. 
 

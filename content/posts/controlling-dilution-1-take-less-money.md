@@ -5,7 +5,7 @@ author: Andrew Peterson
 date: 2022-01-21
 keywords: [ dilution ]
 ---
-This is part of a series on reducing founder dilution.
+This is part of a series on [reducing founder dilution]({{< ref "/posts/controlling-dilution" >}}).
 
 This one is kind of a “duh” concept but before starting a company myself, I mostly figured that the more money you raised the better it was for the company. You read headlines about fundraises and see massive numbers and associate the higher the number the better the company is doing. Sorta… Yes, it means investors were willing to put more money into a company to back them, but it also means more of the company was sold in the process. 
 

@@ -1,11 +1,11 @@
 ---
 title: Controlling Dilution 2 - Raising at a Higher Valuation
-description: And other times, more is more.  A high valuation can often mean more control.  But beware.
+description: And other times, more is more.  A high valuation can often mean more control.  But beware of going too high.
 author: Andrew Peterson
 date: 2022-01-21
 keywords: [ dilution ]
 ---
-This is part of a series on controling founder dilution during fundraising.
+This is part of a series on [controlling founder dilution]({{< ref "/posts/controlling-dilution" >}}) during fundraising.
 
 This one is also kind of a no-brainer that the higher the valuation you get from investors in each round of funding, the higher the price is per share thus cash invested in the company at lower rates of dilution. 
 

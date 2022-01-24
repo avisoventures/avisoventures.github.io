@@ -1,11 +1,11 @@
 ---
 title: Controlling Dilution 6 - Sell the Company
-description: Sometimes doing another round just isn't worth it 
+description: When dilution is greated than expected growth, sometimes doing another round just isn't worth it.
 author: Nick Galbreath
 date: 2022-01-21
 keywords: [ dilution ]
 ---
-This article is part of a series on controling founder dilution.
+This article is part of a series on [controlling founder dilution]({{< ref "/posts/controlling-dilution" >}}).
 
 When doing fundraising it's natural to focus on increasing the company's valuation.  However, you are in fact making an independant bet that you can grow the company larger than your personal dilution. Otherwise why bother doing it?  We have seen numerous cases of founders "doubling down" by taking VC funding, having dilution, workng 5 more years, and then get the exact same exit they would have gotten in the beginning. This happens. Sure the company was sold for more but the founder ended up "working for the VCs" for 5 extra years with no additional personal benefit (other than salary, and maybe bragging rights).
 

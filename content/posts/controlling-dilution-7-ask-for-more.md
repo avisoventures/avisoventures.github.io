@@ -5,7 +5,7 @@ author: Nick Galbreath
 date: 2022-01-21
 keywords: [ dilution ]
 ---
-This is part of a series on controlling foudner dilution.
+This is part of a series on [controlling foudner dilution]({{< ref "/posts/controlling-dilution" >}}).
 
 One antonymn of "dilute" is "enrich," and you can definitely enrich yourself. As a founder you are an employee like everyone else.  And the board wants you motivated.  The board can issue new option grants to you, which has the opposite effect of dillution.
 
