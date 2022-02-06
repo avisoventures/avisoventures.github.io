@@ -1,0 +1,19 @@
+<?xml version="1.0" standalone="no"?>
+<svg version="1.1"
+   xmlns="http://www.w3.org/2000/svg"
+   width="512"
+   height="512"
+   viewBox="0 0 512 512">
+<g
+     transform="matrix(1,0,0,-1,0,512)">
+<path
+     d="M 0,512 H 512 V 0 H 0 v 512"
+     style="fill:#ffffff;fill-opacity:0;fill-rule:evenodd;stroke:none"
+     id="path14" />
+<g
+     transform="scale(0.35) translate(-1715,-2110)">
+<path
+     d="m 2052.84,2485 531.96,932.76 H 2311.21 L 1779.25,2485 Z m 146.09,-223.58 h 273.59 L 2721.6,2698.16 2843.16,2485 h 273.6 L 2721.6,3177.89 C 2547.38,2872.4 2373.16,2566.91 2198.93,2261.42"
+     style="fill:#1e80d5;fill-opacity:1;fill-rule:evenodd;stroke:none"
+     id="path16" />
+</g></g></svg>
