@@ -1,22 +1,19 @@
 {{ partial "header.html" . }}
-<div class="container py-5">
-	<div class="row justify-content-center">
-		<div class="col-xl-8">
-			<article>
-				{{- if .Params.draft }}<p id="draft">&#x26A0; Draft &#x26A0;</p>{{ end -}}
-				<h1 itemprop="title" class="display-5 fw-bold lh-1 mb-3">{{ if .Params.heading }}{{ .Params.heading }}{{ else }}{{ .Title }}{{ end }}</h1>
-				<div itemprop="subheading" class="lines-dense pb-2">{{ .Description }}</div>
-				<div class="small pb-3 byline">
-					{{ with or .Params.author .Site.Params.author }}<a itemprop="author" href="/author/{{ . | urlize }}">{{ . }}</a> &#x00b7; {{ end }} <time itemprop="pubdate" datetime="{{ .Date.Format "2006-01-02T15:04:05Z" }}">{{ .Date.Format (.Site.Params.dateform | default "January 2, 2006") }}</time>
-					{{- with .Params.tags }}
-					<div>{{ range . }}<a class="btn btn-light" href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a> {{ end }}</div>
-					{{ end -}}
-				</div>
-				{{ .Content }}
-			</article>
-			{{ partial "related.html" . }}
+<div>
+	<article>
+		{{- if .Params.draft }}<p id="draft">&#x26A0; Draft &#x26A0;</p>{{ end -}}
+		<h1 itemprop="title" class="display-5 fw-bold lh-1 mb-3">{{ if .Params.heading }}{{ .Params.heading }}{{ else }}{{ .Title }}{{ end }}</h1>
+		<div itemprop="subheading" class="lines-dense pb-2">{{ .Description }}</div>
+		<div class="small pb-3 byline">
+			{{ with or .Params.author .Site.Params.author }}<a itemprop="author" href="/author/{{ . | urlize }}">{{ . }}</a> &#x00b7; {{ end }} <time itemprop="pubdate" datetime="{{ .Date.Format "2006-01-02T15:04:05Z" }}">{{ .Date.Format (.Site.Params.dateform | default "January 2, 2006") }}</time>
+			{{- with .Params.tags }}
+			<div>{{ range . }}<a class="btn btn-light" href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a> {{ end }}</div>
+			{{ end -}}
 		</div>
-	</div>
-	{{ partial "subscribe.html" . }}
+		{{ .Content }}
+	</article>
+	{{ partial "related.html" . }}
+</div>
+{{ partial "subscribe.html" . }}
 </div>
 {{ partial "footer.html" . }}
