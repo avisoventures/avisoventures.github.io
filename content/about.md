@@ -16,7 +16,7 @@ I've been at more startups than you.
 * Friendster - Yeah that Friendster.  What a wild time.
 * Upromise -  Still around, sorta. I quit when I got the email "The company has been devalued by 90%.  Would you like to buy more shares?"
 * SightPath - "A CDN for the Intranet, in a Box" sold to Cisco. Let me tell you what happened when I put a $1M stock certificate in the desk drawer and went on vacation.
-* Open Market - started in 1996, went IPO and promptly fell into the chasm and died.
+* [Open Market](https://en.wikipedia.org/wiki/Open_Market) - started in 1994, went IPO and promptly fell into the chasm and died.
 
 Along the way I did a lot speaking on the intersection of engineering, operations and security ([examples1](https://www.slideshare.net/nickgsuperstar/presentations), [examples2](https://speakerdeck.com/ngalbreath)).
 
