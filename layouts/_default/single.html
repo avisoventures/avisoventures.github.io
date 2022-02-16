@@ -1,7 +1,4 @@
 {{ partial "header.html" . }}
 {{- if .Params.draft }}<p id="draft">&#x26A0; Draft &#x26A0;</p>{{ end -}}
-<div>
-	      <h1 class="display-5 fw-bold lh-1 mb-3">{{ .Title }}</h1>
 {{ .Content }}
-</div>
 {{ partial "footer.html" . }}
