@@ -15,10 +15,10 @@ I've been at more startups than you.
 * RightMedia / AppNexus / IPONWeb - All were at the birth of programmatic online advertising, all had big exits.
 * Friendster - Yeah that Friendster.  What a wild time.
 * Upromise -  Still around, sorta. I quit when I got the email "The company has been devalued by 90%.  Would you like to buy more shares?"
-* SightPath - "A CDN for the Intranet in a Box", sold to Cisco. Let me tell you what happened when I put a $1m stock certificate in the desk drawer and went on vacation.
+* SightPath - "A CDN for the Intranet, in a Box" sold to Cisco. Let me tell you what happened when I put a $1M stock certificate in the desk drawer and went on vacation.
 * Open Market - started in 1996, went IPO and promptly fell into the chasm and died.
 
-Along the way I did a lot speaking on the intersection of engineering, operations and security ([examples1](https://www.slideshare.net/nickgsuperstar/presentations), [examples2](https://speakerdeck.com/ngalbreath).
+Along the way I did a lot speaking on the intersection of engineering, operations and security ([examples1](https://www.slideshare.net/nickgsuperstar/presentations), [examples2](https://speakerdeck.com/ngalbreath)).
 
 Prior that I bailed out of a PhD program in mathematics at [Boston University](https://www.bu.edu/math/), since I thought this Internet thing might be something. Before that I picked up a mathematics degree from [University of Minnesota](https://cse.umn.edu/math) and did research at [Los Alamos National Laboratory - T13 group](https://cnls.lanl.gov/), [Argonne National Laboratory](https://www.anl.gov/mcs), [Minnesota Supercomputing Institute](https://www.msi.umn.edu/), and the [Geometry Center](https://en.wikipedia.org/wiki/Geometry_Center).
 
@@ -26,5 +26,9 @@ In addition, I authored a large number of [patents](https://patft.uspto.gov/neta
 
 ## Nuts and Bolts
 
-It's a static site, made with [Hugo](https://gohugo.io), and hosted on [Github Pages](https://pages.github.com/) and deployed using [Github Actions](https://github.com/features/actions).  At least for now.
+The name *aviso* comes the [aviso boats](https://en.wikipedia.org/wiki/Aviso) which was used to carry messages between other ships, prior to electronic communications.
+
+Our logo came from a design contest at [99 Designs](https://99designs.com/).
+
+The website is static, made with [Hugo](https://gohugo.io), and hosted on [Github Pages](https://pages.github.com/) and deployed using [Github Actions](https://github.com/features/actions).  At least for now.
 
