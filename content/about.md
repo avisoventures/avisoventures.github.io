@@ -4,9 +4,13 @@ Title: About Aviso Ventures
 
 ## Andrew Peterson
 
+[LinkedIn](https://www.linkedin.com/in/andrewmarshallpeterson/)
+
 An acclaimed and recognized founder, board member, advisor and investor in Information Security. As CEO and Co-Founder of Signal Sciences, Andrew led the company in the creation of their industry-defining technology platform to protect websites/mobile apps/APIs ultimately leading to the $825M sale to Fastly in under 8 years. Prior to Signal Sciences, Andrew has been building leading edge, highly performing product and sales teams across five continents for 20 years with such companies as Etsy, Google, and the Clinton Foundation. He also authored a book with O’Reilly publishing called "Cracking Security Misconceptions" to encourage non-security professionals to participate in organizational security. He graduated from Stanford University with a BA in Science, Technology, and Society.
 
 ## Nick Galbreath
+
+[LinkedIn](https://www.linkedin.com/in/nick-galbreath-1890794/)
 
 I've been at more startups than you.
 
