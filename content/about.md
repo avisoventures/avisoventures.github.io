@@ -34,5 +34,5 @@ The name *aviso* comes the [aviso boats](https://en.wikipedia.org/wiki/Aviso) wh
 
 Our logo came from a design contest at [99 Designs](https://99designs.com/).
 
-The website is static, made with [Hugo](https://gohugo.io), and hosted on [Github Pages](https://pages.github.com/) and deployed using [Github Actions](https://github.com/features/actions).  At least for now.
+The website is static, made with [Hugo](https://gohugo.io), and hosted on [Github Pages](https://pages.github.com/) and deployed using [Github Actions](https://github.com/features/actions).  And [Bootstrap](https://getbootstrap.com/) for UI components. At least for now.
 
