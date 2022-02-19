@@ -6,38 +6,47 @@ Investments:
     Status: Acquired by Apple 
   - Name: Shujinko
     Home: https://www.shujinko.io/
+    Desc: Quickly capture data and manage compliance across multiple audits, frameworks, and Cloud/SaaS/Hybrid systems
     Icon:
     Status: Aquired by A-LIGN
   - Name: Rolebot
     Home: https://www.rolebot.io/
+    Desc: World’s 1st AI-powered Job Board for Passive Talent, delivering the other 75% that never applies.
     Icon:
     Status:
   - Name: ProdPerfect
     Home: https://prodperfect.com/
+    Desc: Autonomous, Continuous E2E Testing for Modern Dev Teams
     Icon:
     Status:
   - Name: Altitude Networks
     Home: https://altitudenetworks.com/
+    Desc: Quickly identify, remediate, and prevent data loss in the cloud with one click.
     Icon:
     Status:
   - Name: Capbase
     Home: https://capbase.com/
+    Desc: Incorporate your startup and raise funds in days.
     Icon:
     Status:
   - Name: Open Raven
     Home: https://www.openraven.com/
+    Desc: Data security visibility and compliance for the cloud.
     Icon: 
     Status:
   - Name: Propelo 
     Home: https://www.propelo.ai/
+    Desc: Actionable insights to improve efficiency and agile velocity in every stage of your DevOps Lifecycle.
     Icon:
     Status:
   - Name: Atolio
     Home: https://www.atolio.com/
+    Desc: Connect every app, service and asset across the business—giving the right people the answers they need, when they need them, no matter the source.
     Icon:
     Status:
   - Name: Opal
     Home: https://workwithopal.com/
+    Desc: Creates the unparalleled visibility and alignment marketing and communications teams need to do exceptional work.
     Icon:
     Status:
   - Name: Material Security
