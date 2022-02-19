@@ -23,8 +23,8 @@
 <tbody>
 {{ range sort .Site.Data.portfolio.Investments ($scratch.Get "Key")  "asc" }}
 <tr>
-	<td><img width="75" src="/assets/icons/{{ .Name | urlize }}.jpg"></td>
-	<td><h4><a href="{{ .Home }}">{{ .Name }}</a></h4>
+	<td><img width="50" src="/assets/icons/{{ .Name | urlize }}.jpg"></td>
+	<td><h5><a href="{{ .Home }}">{{ .Name }}</a></h5>
 		{{ .Desc }}</td>
 	<td class="text-nowrap">{{ .Location }}</td>
 	<td>{{ .Status }}</td>
