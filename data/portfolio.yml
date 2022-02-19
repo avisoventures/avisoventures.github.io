@@ -1,0 +1,117 @@
+Investments:
+  - Name: Fleetsmith
+    Home: https://www.fleetsmith.com/
+    Desc: Automate Apple device management
+    Icon:
+    Status: Acquired by Apple 
+  - Name: Shujinko
+    Home: https://www.shujinko.io/
+    Icon:
+    Status: Aquired by A-LIGN
+  - Name: Rolebot
+    Home: https://www.rolebot.io/
+    Icon:
+    Status:
+  - Name: ProdPerfect
+    Home: https://prodperfect.com/
+    Icon:
+    Status:
+  - Name: Altitude Networks
+    Home: https://altitudenetworks.com/
+    Icon:
+    Status:
+  - Name: Capbase
+    Home: https://capbase.com/
+    Icon:
+    Status:
+  - Name: Open Raven
+    Home: https://www.openraven.com/
+    Icon: 
+    Status:
+  - Name: Propelo 
+    Home: https://www.propelo.ai/
+    Icon:
+    Status:
+  - Name: Atolio
+    Home: https://www.atolio.com/
+    Icon:
+    Status:
+  - Name: Opal
+    Home: https://workwithopal.com/
+    Icon:
+    Status:
+  - Name: Material Security
+    Home: https://material.security/
+    Desc: Extend Zero Trust Security to Email
+    Icon:
+    Status:
+  - Name: Britive
+    Home: https://www.britive.com/
+    Desc: Maintain Zero Standing Privileges Across Your Multi-Cloud Environment
+    Icon:
+    Status:
+  - Name: OmniPanel
+    Home: https://www.omnipanel.io/
+    Desc: The internal knowledge base for your e-commerce data
+    Icon:
+    Status:
+  - Name: Lucidum
+    Home: https://lucidum.io/
+    Desc: AI-Powered Cybersecurity Asset Discovery and Management Platform
+    Icon:
+    Status:
+  - Name: Cyware
+    Home: https://cyware.com/
+    Desc: Cyber Fusion. Next-generation SOAR and Threat Intelligence Solved
+    Icon:
+    Status:
+  - Name: Cyvatar
+    Desc: Automated & fully managed cybersecurity services for startups and small to medium-sized enterprises.
+    Home: https://cyvatar.ai/
+    Icon:
+    Status:
+  - Name: Mimoto
+    Home: https://www.mimoto.ai/
+    Desc: Know who is interacting with your systems.
+    Icon:
+    Status:
+  - Name: Privacy Dynamics
+    Home: https://www.privacydynamics.io/
+    Desc: Unleash creative intelligence with faster, safer, and more actionable data. Stop letting privacy hold you back.
+    Icon:
+    Status:
+  - Name: SGNL
+    Home: https://sgnl.ai/
+    Desc: Simplifying Enterprise Authorization
+    Icon:   
+    Status:
+  - Name: Nucleus Security
+    Home: https://nucleussec.com/
+    Desc: Automated vulnerability management solution that accelerates vulnerability response and enhances application security.
+    Icon:
+    Status:
+  - Name: Socket
+    Home: https://socket.dev/
+    Desc: Secure your JavaScript supply chain
+    Icon:
+  - Name: alphaMountain
+    Home: https://www.alphamountain.ai/
+    Desc: Domain and IP intelligence feeds for cyber protection and investigational platforms based on continuously trained AI models. 
+    Icon:
+    Status:
+  - Name: OpsLevel
+    Home: https://www.opslevel.com/
+    Desc: The Best Way to Organize & Manage Microservices
+    Icon:
+    Status:
+  - Name: Arena
+    Home: https://arena.im/
+    Desc: Add Live Group Chat to Your Website
+    Icon: arena.jpg
+    Status:
+  - Name: KSOC
+    Home: https://www.ksoc.com/
+    Desc: Automatically remediate Kubernetes security risks. 
+    Icon:
+    Status:
+

@@ -1,0 +1,11 @@
+{{ partial "header.html" . }}
+<table class="table">
+{{ range sort .Site.Data.portfolio.Investments "Name" "asc" }}
+<tr>
+	<td><img src="/assets/icons/{{ .Name | urlize }}.jpg"></td>
+	<td><a href="{{ .Home }}">{{ .Name }}</a><br/>{{ .Desc }}</td>
+	<td>{{ .Status }}</td>
+</tr>
+{{ end }}
+</table>
+{{ partial "footer.html" . }}
