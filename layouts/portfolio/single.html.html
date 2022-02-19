@@ -2,8 +2,10 @@
 <table class="table">
 {{ range sort .Site.Data.portfolio.Investments "Name" "asc" }}
 <tr>
-	<td><img src="/assets/icons/{{ .Name | urlize }}.jpg"></td>
-	<td><a href="{{ .Home }}">{{ .Name }}</a><br/>{{ .Desc }}</td>
+	<td><img width="75" src="/assets/icons/{{ .Name | urlize }}.jpg"></td>
+	<td><h3><a href="{{ .Home }}">{{ .Name }}</a></h3>
+		{{ .Desc }}</td>
+	<td class="text-nowrap">{{ .Location }}</td>
 	<td>{{ .Status }}</td>
 </tr>
 {{ end }}
