@@ -1,13 +1,38 @@
 {{ partial "header.html" . }}
+
+{{ $scratch := newScratch }}
+{{ $scratch.Set "Key" "Name" }}
+{{ with .RelPermalink }}
+{{ warnf "RelPermalink is %s" . }}
+{{ if in . "by-location" }}
+{{ $scratch.Set "Key" "Location" }}
+{{ end }}
+{{ if in . "by-stage" }}
+{{ $scratch.Set "Key" "Stage" }}
+{{ end }}
+{{ end }}
+<a href="/portfolio/by-name/">By Name</a>
+<a href="/portfolio/by-location/">By Location</a>
+<a href="/portfolio/by-stage/">By Stage</a>
 <table class="table">
-{{ range sort .Site.Data.portfolio.Investments "Name" "asc" }}
+<thead>
+	<tr>
+	<th></th>
+	<th>Company</th>
+	<th>Location</th>
+	<th>Stage</th>
+	</tr>
+</thead>
+<tbody>
+{{ range sort .Site.Data.portfolio.Investments ($scratch.Get "Key")  "asc" }}
 <tr>
 	<td><img width="75" src="/assets/icons/{{ .Name | urlize }}.jpg"></td>
-	<td><h3><a href="{{ .Home }}">{{ .Name }}</a></h3>
+	<td><h4><a href="{{ .Home }}">{{ .Name }}</a></h4>
 		{{ .Desc }}</td>
 	<td class="text-nowrap">{{ .Location }}</td>
 	<td>{{ .Status }}</td>
 </tr>
 {{ end }}
+</tbody>
 </table>
 {{ partial "footer.html" . }}
