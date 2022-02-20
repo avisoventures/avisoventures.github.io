@@ -3,7 +3,6 @@
 {{ $scratch := newScratch }}
 {{ $scratch.Set "Key" "Name" }}
 {{ with .RelPermalink }}
-{{ warnf "RelPermalink is %s" . }}
 {{ if in . "by-location" }}
 {{ $scratch.Set "Key" "Location" }}
 {{ end }}
@@ -15,16 +14,16 @@
 <thead>
 	<tr>
 	<th></th>
-	<th><a href="{{ ref . "by-name" }}">Name</a></th>
-	<th><a href="{{ ref . "by-location" }}">Location</a></th>
-	<th><a href="{{ ref . "by-stage" }}">Stage</a></th>
+	<th><a class="text-reset" href="{{ ref . "by-name" }}">Name</a></th>
+	<th><a class="text-reset" href="{{ ref . "by-location" }}">Location</a></th>
+	<th><a class="text-reset" href="{{ ref . "by-stage" }}">Stage</a></th>
 	</tr>
 </thead>
 <tbody>
 {{ range sort .Site.Data.portfolio.Investments ($scratch.Get "Key")  "asc" }}
 <tr>
 	<td><img width="50" src="/assets/icons/{{ .Name | urlize }}.jpg"></td>
-	<td><h5><a href="{{ .Home }}">{{ .Name }}</a></h5>
+	<td><h5><a class="text-reset" href="{{ .Home }}">{{ .Name }}</a></h5>
 		{{ .Desc }}</td>
 	<td class="text-nowrap">{{ .Location }}</td>
 	<td>{{ .Status }}</td>
