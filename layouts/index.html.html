@@ -1,25 +1,29 @@
 {{ partial "header.html" . }}
-			<div class="">
-				<h1 class="display-6 lh-1 mt-3 mb-3">Building the Future of Enterprise</h1>
-				<p class="lead">
-				At Aviso Ventures, we invest in companies that make the enterprise smarter, faster and more secure.
-				</p>
-				<p class="lead">
-				We help founders with actionable advice and access to capital, while never forgetting it's their company.
-				</p>
-				<div class="mb-4"></div>
-				{{ partial "subscribe" . }}
-			</div>
-{{ .Content }}
-<div>
-	<section>
-		<ul>
-			{{- range .Data.Pages.ByDate.Reverse -}}
-			{{- if eq .Type "post" -}}
-			<li>{{ if .Params.draft }}&#x26A0; {{ end }}<a href="{{ .Permalink | relURL }}">{{ .Title }}</a></li>
-			{{- end -}}
-			{{- end -}}
-		</ul>
-	</section>
+<div class="row justify-content-center">
+	<div class="col-xl-8">
+		<div class="">
+			<h1 class="display-6 lh-1 mt-3 mb-3">Building the Future of Enterprise</h1>
+			<p class="lead">
+			At Aviso Ventures, we invest in companies that make the enterprise smarter, faster and more secure.
+			</p>
+			<p class="lead">
+			We help founders with actionable advice and access to capital, while never forgetting it's their company.
+			</p>
+			<div class="mb-4"></div>
+			{{ partial "subscribe" . }}
+		</div>
+		{{ .Content }}
+		<div>
+			<section>
+				<ul>
+					{{- range .Data.Pages.ByDate.Reverse -}}
+					{{- if eq .Type "post" -}}
+					<li>{{ if .Params.draft }}&#x26A0; {{ end }}<a href="{{ .Permalink | relURL }}">{{ .Title }}</a></li>
+					{{- end -}}
+					{{- end -}}
+				</ul>
+			</section>
+		</div>
+	</div>
 </div>
 {{ partial "footer.html" . }}

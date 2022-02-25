@@ -1,6 +1,9 @@
-<hr>
-<div class="small text-center mb-3">{{ .Site.Copyright | safeHTML }}</div>
-</div></div></div>
+<div class="row justify-content-center">
+	<div class="col-xl-8"><hr>
+		<div class="small text-center mb-3">{{ .Site.Copyright | safeHTML }}</div>
+	</div>
+</div>
+</div><!-- container -->
 </main>
 {{ partial "footer-extra.html" . }}
 {{ template "_internal/google_analytics.html" . }}

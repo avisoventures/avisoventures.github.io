@@ -1,34 +1,38 @@
 {{ partial "header.html" . }}
+<div class="row justify-content-center">
+	<div class="col-xl-8">
 
-{{ $scratch := newScratch }}
-{{ $scratch.Set "Key" "Name" }}
-{{ with .RelPermalink }}
-{{ if in . "by-location" }}
-{{ $scratch.Set "Key" "Location" }}
-{{ end }}
-{{ if in . "by-stage" }}
-{{ $scratch.Set "Key" "Stage" }}
-{{ end }}
-{{ end }}
-<table class="table">
-<thead>
-	<tr>
-	<th></th>
-	<th><a class="text-reset" href="{{ ref . "by-name" }}">Name</a></th>
-	<th><a class="text-reset" href="{{ ref . "by-location" }}">Location</a></th>
-	<th><a class="text-reset" href="{{ ref . "by-stage" }}">Stage</a></th>
-	</tr>
-</thead>
-<tbody>
-{{ range sort .Site.Data.portfolio.Investments ($scratch.Get "Key")  "asc" }}
-<tr>
-	<td><img width="50" src="/assets/icons/{{ .Name | urlize }}.jpg"></td>
-	<td><h5><a class="text-reset" href="{{ .Home }}">{{ .Name }}</a></h5>
-		{{ .Desc }}</td>
-	<td class="text-nowrap">{{ .Location }}</td>
-	<td>{{ .Status }}</td>
-</tr>
-{{ end }}
-</tbody>
-</table>
+		{{ $scratch := newScratch }}
+		{{ $scratch.Set "Key" "Name" }}
+		{{ with .RelPermalink }}
+		{{ if in . "by-location" }}
+		{{ $scratch.Set "Key" "Location" }}
+		{{ end }}
+		{{ if in . "by-stage" }}
+		{{ $scratch.Set "Key" "Stage" }}
+		{{ end }}
+		{{ end }}
+		<table class="table">
+			<thead>
+				<tr>
+					<th></th>
+					<th><a class="text-reset" href="{{ ref . "by-name" }}">Name</a></th>
+					<th><a class="text-reset" href="{{ ref . "by-location" }}">Location</a></th>
+					<th><a class="text-reset" href="{{ ref . "by-stage" }}">Stage</a></th>
+				</tr>
+			</thead>
+			<tbody>
+				{{ range sort .Site.Data.portfolio.Investments ($scratch.Get "Key")  "asc" }}
+				<tr>
+					<td><img width="50" src="/assets/icons/{{ .Name | urlize }}.jpg"></td>
+					<td><h5><a class="text-reset" href="{{ .Home }}">{{ .Name }}</a></h5>
+						{{ .Desc }}</td>
+					<td class="text-nowrap">{{ .Location }}</td>
+					<td>{{ .Status }}</td>
+				</tr>
+				{{ end }}
+			</tbody>
+		</table>
+	</div>
+</div>
 {{ partial "footer.html" . }}
