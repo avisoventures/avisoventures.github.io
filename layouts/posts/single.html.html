@@ -4,8 +4,8 @@
 		<article>
 			{{- if .Params.draft }}<p id="draft">&#x26A0; Draft &#x26A0;</p>{{ end -}}
 			<h1 itemprop="title" class="fw-normal fs-2 lh-1">{{ if .Params.heading }}{{ .Params.heading }}{{ else }}{{ .Title }}{{ end }}</h1>
-			<div itemprop="subheading" class="lh-sm pb-2 fs-4 fw-light">{{ .Description }}</div>
-			<div class="pb-3">
+			<div itemprop="subheading" class="lh-sm fs-4 fw-light">{{ .Description }}</div>
+			<div class="pb-2">
 				{{ with or .Params.author .Site.Params.author }}<a class="text-reset text-decoration-none" itemprop="author" href="/author/{{ . | urlize }}">{{ . }}</a> &#x00b7; {{ end }} <time itemprop="pubdate" datetime="{{ .Date.Format "2006-01-02T15:04:05Z" }}">{{ .Date.Format (.Site.Params.dateform | default "January 2, 2006") }}</time>
 				{{- with .Params.tags }}
 				<div>{{ range . }}<a class="btn btn-light" href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a> {{ end }}</div>
