@@ -1,22 +1,20 @@
 {{ partial "header.html" . }}
-<div class="row justify-content-center">
-	<div class="col-xl-8">
-		<article>
-			{{- if .Params.draft }}<p id="draft">&#x26A0; Draft &#x26A0;</p>{{ end -}}
-			<h1 itemprop="title" class="fw-normal mb-2 fs-2 lh-1">{{ if .Params.heading }}{{ .Params.heading }}{{ else }}{{ .Title }}{{ end }}</h1>
-			<div itemprop="subheading" class="lh-sm fs-5 mb-2">{{ .Description }}</div>
-			<div class="mb-4">
-				{{ with or .Params.author .Site.Params.author }}<a class="text-reset text-decoration-none" itemprop="author" href="/author/{{ . | urlize }}">{{ . }}</a> &#x00b7; {{ end }} <time itemprop="pubdate" datetime="{{ .Date.Format "2006-01-02T15:04:05Z" }}">{{ .Date.Format (.Site.Params.dateform | default "January 2, 2006") }}</time>
-				{{- with .Params.tags }}
-				<div>{{ range . }}<a class="btn btn-light" href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a> {{ end }}</div>
-				{{ end -}}
-			</div>
-			<div class="mb-5">
-				{{ .Content }}
-			</div>
-		</article>
-		{{ partial "related.html" . }}
-		{{ partial "subscribe.html" . }}
-	</div>
+<div>
+	<article>
+		{{- if .Params.draft }}<p id="draft">&#x26A0; Draft &#x26A0;</p>{{ end -}}
+		<h1 itemprop="title" class="fw-normal mb-2 fs-2 lh-1">{{ if .Params.heading }}{{ .Params.heading }}{{ else }}{{ .Title }}{{ end }}</h1>
+		<div itemprop="subheading" class="lh-sm fs-5 mb-2">{{ .Description }}</div>
+		<div class="mb-4">
+			{{ with or .Params.author .Site.Params.author }}<a class="text-reset text-decoration-none" itemprop="author" href="/author/{{ . | urlize }}">{{ . }}</a> &#x00b7; {{ end }} <time itemprop="pubdate" datetime="{{ .Date.Format "2006-01-02T15:04:05Z" }}">{{ .Date.Format (.Site.Params.dateform | default "January 2, 2006") }}</time>
+			{{- with .Params.tags }}
+			<div>{{ range . }}<a class="btn btn-light" href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a> {{ end }}</div>
+			{{ end -}}
+		</div>
+		<div id="content" class="mb-5">
+			{{ .Content }}
+		</div>
+	</article>
+	{{ partial "related.html" . }}
+	{{ partial "subscribe.html" . }}
 </div>
 {{ partial "footer.html" . }}
