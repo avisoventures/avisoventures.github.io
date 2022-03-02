@@ -1,4 +1,4 @@
-baseURL = 'https://avisoventures.com/'
+baseURL = 'https://www.avisoventures.com/'
 languageCode = 'en-us'
 title = 'Aviso Ventures'
 enableRobotsTXT = true
