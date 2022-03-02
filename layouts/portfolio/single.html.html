@@ -22,8 +22,8 @@
 		<tbody>
 			{{ range sort .Site.Data.portfolio.Investments ($scratch.Get "Key")  "asc" }}
 			<tr>
-				<td><img width="50" src="/assets/icons/{{ .Name | urlize }}.jpg"></td>
-				<td><h5><a class="text-reset" href="{{ .Home }}">{{ .Name }}</a></h5>
+				<td><a href="{{ .Home }}"><img width="50" src="/assets/icons/{{ .Name | urlize }}.jpg"></a></td>
+				<td><h5><a class="text-reset text-decoration-none" href="{{ .Home }}">{{ .Name }}</a></h5>
 					{{ .Desc }}</td>
 				<td class="text-nowrap">{{ .Location }}</td>
 				<td>{{ .Status }}</td>
