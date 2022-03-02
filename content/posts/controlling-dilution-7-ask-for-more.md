@@ -4,6 +4,7 @@ description: Get more ownership by asking the board for a new option grant.  It'
 author: Nick Galbreath
 date: 2022-01-21
 keywords: [ dilution ]
+draft: true
 ---
 This is part of a series on [controlling foudner dilution]({{< ref "/posts/controlling-dilution" >}}).
 

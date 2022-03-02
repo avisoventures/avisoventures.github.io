@@ -4,6 +4,7 @@ description: There are other sources of funding beside venture capital. Use them
 author: Andrew Peterson
 date: 2022-01-21
 keywords: [ dilution ]
+draft: true
 ---
 This is part of series on [controlling founder dilution]({{< ref "/posts/controlling-dilution" >}}) during fundraising.
 

@@ -4,6 +4,7 @@ description: Having a great lawyer can help you negioate terms
 author: Andrew Peterson
 date: 2022-01-21
 keywords: [ dilution ]
+draft: true
 ---
 This is part of a series on [controlling founder dilution]({{< ref "/posts/controlling-dilution" >}}) during fundraising.
 

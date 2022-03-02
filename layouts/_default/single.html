@@ -1,8 +1,6 @@
 {{ partial "header.html" . }}
-<div class="row justify-content-center">
-      <div class="col-xl-8">
+<div>
 {{- if .Params.draft }}<p id="draft">&#x26A0; Draft &#x26A0;</p>{{ end -}}
 {{ .Content }}
-      </div>
 </div>
 {{ partial "footer.html" . }}

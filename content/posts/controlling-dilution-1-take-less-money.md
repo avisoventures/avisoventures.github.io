@@ -4,6 +4,7 @@ description: Sometimes less is more.  By taking less money during fundraising, y
 author: Andrew Peterson
 date: 2022-01-21
 keywords: [ dilution ]
+draft: true
 ---
 This is part of a series on [reducing founder dilution]({{< ref "/posts/controlling-dilution" >}}).
 

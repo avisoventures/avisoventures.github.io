@@ -3,6 +3,7 @@ title: "Masters of Scale - Getting To No"
 date: 2022-01-20
 author: Nick Galbreath
 description: "I'm reading Reid Hoffman’s 'Masters of Scale'.  Chapter 1 - Know your Nos when fundraising."
+draft: true
 ---
 My wife brought home Reid Hoffman’s “Masters of Scale” from the public library.:  If you aren't familiar with Reid, he's... uh... a very well known investor, focusing primarily on business with network effects.  Oh yeah he founded LinkedIn too.
 

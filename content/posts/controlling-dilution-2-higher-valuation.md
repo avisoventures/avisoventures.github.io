@@ -4,6 +4,7 @@ description: And other times, more is more.  A high valuation can often mean mor
 author: Andrew Peterson
 date: 2022-01-21
 keywords: [ dilution ]
+draft: true
 ---
 This is part of a series on [controlling founder dilution]({{< ref "/posts/controlling-dilution" >}}) during fundraising.
 

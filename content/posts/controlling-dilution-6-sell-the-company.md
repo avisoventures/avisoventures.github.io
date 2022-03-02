@@ -4,6 +4,7 @@ description: When dilution is greated than expected growth, sometimes doing anot
 author: Nick Galbreath
 date: 2022-01-21
 keywords: [ dilution ]
+draft: true
 ---
 This article is part of a series on [controlling founder dilution]({{< ref "/posts/controlling-dilution" >}}).
 

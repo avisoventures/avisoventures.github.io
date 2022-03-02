@@ -4,6 +4,7 @@ description: The lowly option pool is a secret weapon to control dilution during
 author: Andrew Peterson
 date: 2022-01-21
 keywords: [ dilution ]
+draft: true
 ---
 This is part of a series on [controlling founder dilution]({{< ref "/posts/controlling-dilution" >}})  during fundraising.
 

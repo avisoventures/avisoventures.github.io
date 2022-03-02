@@ -3,6 +3,7 @@ title: The Legend of Magic Box
 date: 2021-01-04
 author: Nick Galbreath
 description: "My most told story on listening to your customers, how everything is an MVP, learning to scale 10x downward."
+draft: true
 ---
 
 “Hey Nick… can we add a box on the marketing website to collect email addresses?”

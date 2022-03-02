@@ -4,6 +4,7 @@ description: As fundraising happens, the founder's stake in the company slowly s
 author: Andrew Peterson
 date: 2022-01-21
 keywords: [ dilution ]
+draft: true
 ---
 Founder (and employee) dilution during fundraising is natural and required.  How much dilution however is, at least partially, controllable. And the amount of dilution can be the difference between an "ok" exit and "f-you money" exit.  It's not uncommon for founders to own less than 5% of the company after exit, and in some cases 1%.  At Signal Sciecnes, the founders still controled over 46% of the company at exit.  How did we do it?
 
