@@ -20,15 +20,15 @@ Investments:
   - Name: ProdPerfect
     Home: https://prodperfect.com/
     Desc: Autonomous, Continuous E2E Testing for Modern Dev Teams
-    Status:
+    Status: Series A
     Location: San Francisco
     Investors: []
   - Name: Altitude Networks
     Home: https://altitudenetworks.com/
     Desc: Quickly identify, remediate, and prevent data loss in the cloud with one click.
     Location: San Francisco
-    Status:
-    Investors: []
+    Status: Series A
+    Investors: [ Felicis, Slack ]
   - Name: Capbase
     Home: https://capbase.com/
     Desc: Incorporate your startup and raise funds in days.
@@ -62,7 +62,7 @@ Investments:
   - Name: Material Security
     Home: https://material.security/
     Desc: Extend Zero Trust Security to Email
-    Status:
+    Status: Series B
     Investors: [ a16z ]
     Location: San Francisco
   - Name: Britive
@@ -70,41 +70,41 @@ Investments:
     Desc: Maintain Zero Standing Privileges Across Your Multi-Cloud Environment
     Location: Los Angeles
     Investors: [ Upfront ]
-    Status:
+    Status: Series A
   - Name: OmniPanel
     Home: https://www.omnipanel.io/
     Desc: The internal knowledge base for your e-commerce data
-    Investors: [ CRV ]
-    Status:
+    Investors: [ CRV, Alumni ]
+    Status: Seed
     Location: Los Angeles
   - Name: Lucidum
     Home: https://lucidum.io/
     Desc: AI-Powered Cybersecurity Asset Discovery and Management Platform
-    Status:
+    Status: Series A
     Location: Silicon Valley
-    Investors: [ ]
+    Investors: [ GGV ]
   - Name: Cyware
     Home: https://cyware.com/
     Desc: Cyber Fusion. Next-generation SOAR and Threat Intelligence Solved
-    Status:
+    Status: Series B
     Location: New York City
     Investors: [ ]
   - Name: Cyvatar
     Desc: Automated & fully managed cybersecurity services for startups and small to medium-sized enterprises.
     Home: https://cyvatar.ai/
-    Status:
+    Status: Series A
     Location: Los Angeles
     Investors: [ ]
   - Name: Mimoto
     Home: https://www.mimoto.ai/
     Desc: Know who is interacting with your systems.
-    Status:
+    Status: Seed
     Location: San Francisco
     Investors: [ ]
   - Name: Privacy Dynamics
     Home: https://www.privacydynamics.io/
     Desc: Unleash creative intelligence with faster, safer, and more actionable data. Stop letting privacy hold you back.
-    Status:
+    Status: Seed
     Investors: [ Slack ]
     Location: Seattle
   - Name: SGNL
@@ -116,7 +116,7 @@ Investments:
   - Name: Nucleus Security
     Home: https://nucleussec.com/
     Desc: Automated vulnerability management solution that accelerates vulnerability response and enhances application security.
-    Status:
+    Status: Series A
     Location: Tampa
     Investors: [ ]
   - Name: Socket
@@ -133,7 +133,7 @@ Investments:
   - Name: OpsLevel
     Home: https://www.opslevel.com/
     Desc: The Best Way to Organize & Manage Microservices
-    Status:
+    Status: Series A
     Location: Toronto
     Investors: [ Threshold ]
   - Name: Arena
