@@ -16,21 +16,25 @@ Investments:
     Desc: World’s 1st AI-powered Job Board for Passive Talent, delivering the other 75% that never applies.
     Status:
     Location: Los Angeles
+    Investors: [ ]
   - Name: ProdPerfect
     Home: https://prodperfect.com/
     Desc: Autonomous, Continuous E2E Testing for Modern Dev Teams
     Status:
     Location: San Francisco
+    Investors: []
   - Name: Altitude Networks
     Home: https://altitudenetworks.com/
     Desc: Quickly identify, remediate, and prevent data loss in the cloud with one click.
     Location: San Francisco
     Status:
+    Investors: []
   - Name: Capbase
     Home: https://capbase.com/
     Desc: Incorporate your startup and raise funds in days.
     Status:
     Location: San Francisco
+    Investors: []
   - Name: Open Raven
     Home: https://www.openraven.com/
     Desc: Data security visibility and compliance for the cloud.
@@ -42,11 +46,13 @@ Investments:
     Desc: Actionable insights to improve efficiency and agile velocity in every stage of your DevOps Lifecycle.
     Status:
     Location: Silicon Valley
+    Investors: []
   - Name: Atolio
     Home: https://www.atolio.com/
     Desc: Connect every app, service and asset across the business—giving the right people the answers they need, when they need them, no matter the source.
     Status:
     Location: San Francisco
+    Investors: []
   - Name: Opal
     Home: https://opal.dev/
     Desc: Provide engineers with complete onboarding, grant granular short-lived access across the company, and automate painful compliance workflows.
@@ -68,7 +74,7 @@ Investments:
   - Name: OmniPanel
     Home: https://www.omnipanel.io/
     Desc: The internal knowledge base for your e-commerce data
-    Investors: CRV
+    Investors: [ CRV ]
     Status:
     Location: Los Angeles
   - Name: Lucidum
@@ -76,51 +82,60 @@ Investments:
     Desc: AI-Powered Cybersecurity Asset Discovery and Management Platform
     Status:
     Location: Silicon Valley
+    Investors: [ ]
   - Name: Cyware
     Home: https://cyware.com/
     Desc: Cyber Fusion. Next-generation SOAR and Threat Intelligence Solved
     Status:
     Location: New York City
+    Investors: [ ]
   - Name: Cyvatar
     Desc: Automated & fully managed cybersecurity services for startups and small to medium-sized enterprises.
     Home: https://cyvatar.ai/
     Status:
     Location: Los Angeles
+    Investors: [ ]
   - Name: Mimoto
     Home: https://www.mimoto.ai/
     Desc: Know who is interacting with your systems.
     Status:
     Location: San Francisco
+    Investors: [ ]
   - Name: Privacy Dynamics
     Home: https://www.privacydynamics.io/
     Desc: Unleash creative intelligence with faster, safer, and more actionable data. Stop letting privacy hold you back.
     Status:
-    Investors: [ Slack Fund ]
+    Investors: [ Slack ]
     Location: Seattle
   - Name: SGNL
     Home: https://sgnl.ai/
     Desc: Simplifying Enterprise Authorization
     Status:
     Location: Silicon Valley
+    Investors: [ ]
   - Name: Nucleus Security
     Home: https://nucleussec.com/
     Desc: Automated vulnerability management solution that accelerates vulnerability response and enhances application security.
     Status:
     Location: Tampa
+    Investors: [ ]
   - Name: Socket
     Home: https://socket.dev/
     Desc: Secure your JavaScript supply chain
     Location: Remote
+    Investors: [ ]
   - Name: alphaMountain
     Home: https://www.alphamountain.ai/
     Desc: Domain and IP intelligence feeds for cyber protection and investigational platforms based on continuously trained AI models. 
     Status:
     Location: Salt Lake City
+    Investors: [ ]
   - Name: OpsLevel
     Home: https://www.opslevel.com/
     Desc: The Best Way to Organize & Manage Microservices
     Status:
     Location: Toronto
+    Investors: [ Threshold ]
   - Name: Arena
     Home: https://arena.im/
     Desc: Add Live Group Chat to Your Website
@@ -132,5 +147,5 @@ Investments:
     Desc: Automatically remediate Kubernetes security risks. 
     Status:
     Location: San Francisco
-    Investors:
+    Investors: [ ]
 

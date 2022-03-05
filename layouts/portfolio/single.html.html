@@ -10,6 +10,10 @@
 	{{ $scratch.Set "Key" "Stage" }}
 	{{ end }}
 	{{ end }}
+
+	<p>
+	Stage is the last fundraising round, not necessary the one invested in.  Likewise, the investors may have come in before, with, or after the investment, and is not a complete list.
+	</p>
 	<table class="table">
 		<thead>
 			<tr>
@@ -17,6 +21,7 @@
 				<th><a class="text-reset" href="{{ ref . "by-name" }}">Name</a></th>
 				<th><a class="text-reset" href="{{ ref . "by-location" }}">Location</a></th>
 				<th><a class="text-reset" href="{{ ref . "by-stage" }}">Stage</a></th>
+				<th>Investors</th>
 			</tr>
 		</thead>
 		<tbody>
@@ -27,6 +32,7 @@
 					{{ .Desc }}</td>
 				<td class="text-nowrap">{{ .Location }}</td>
 				<td>{{ .Status }}</td>
+				<td>{{ delimit (sort .Investors)  ", "}}</td>
 			</tr>
 			{{ end }}
 		</tbody>
