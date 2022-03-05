@@ -14,7 +14,7 @@ Investments:
   - Name: Rolebot
     Home: https://www.rolebot.io/
     Desc: World’s 1st AI-powered Job Board for Passive Talent, delivering the other 75% that never applies.
-    Status:
+    Status: Seed
     Location: Los Angeles
     Investors: [ ]
   - Name: ProdPerfect
@@ -124,6 +124,7 @@ Investments:
     Desc: Secure your JavaScript supply chain
     Location: Remote
     Investors: [ ]
+    Status: Seed
   - Name: alphaMountain
     Home: https://www.alphamountain.ai/
     Desc: Domain and IP intelligence feeds for cyber protection and investigational platforms based on continuously trained AI models. 
