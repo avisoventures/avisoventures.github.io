@@ -32,31 +32,31 @@ Investments:
   - Name: Capbase
     Home: https://capbase.com/
     Desc: Incorporate your startup and raise funds in days.
-    Status:
+    Status: Seed
     Location: San Francisco
     Investors: []
   - Name: Open Raven
     Home: https://www.openraven.com/
     Desc: Data security visibility and compliance for the cloud.
     Location: Los Angeles
-    Status:
+    Status: Series A
     Investors: [ Upfront, Kleiner Perkins ]
   - Name: Propelo 
     Home: https://www.propelo.ai/
     Desc: Actionable insights to improve efficiency and agile velocity in every stage of your DevOps Lifecycle.
-    Status:
+    Status: Seed
     Location: Silicon Valley
     Investors: []
   - Name: Atolio
     Home: https://www.atolio.com/
     Desc: Connect every app, service and asset across the business—giving the right people the answers they need, when they need them, no matter the source.
-    Status:
+    Status: Seed
     Location: San Francisco
     Investors: []
   - Name: Opal
     Home: https://opal.dev/
     Desc: Provide engineers with complete onboarding, grant granular short-lived access across the company, and automate painful compliance workflows.
-    Status:
+    Status: Seed
     Location: San Francisco
     Investors: [ Greylock ]
   - Name: Material Security
@@ -110,7 +110,7 @@ Investments:
   - Name: SGNL
     Home: https://sgnl.ai/
     Desc: Simplifying Enterprise Authorization
-    Status:
+    Status: Seed
     Location: Silicon Valley
     Investors: [ ]
   - Name: Nucleus Security
@@ -127,7 +127,7 @@ Investments:
   - Name: alphaMountain
     Home: https://www.alphamountain.ai/
     Desc: Domain and IP intelligence feeds for cyber protection and investigational platforms based on continuously trained AI models. 
-    Status:
+    Status: Seed
     Location: Salt Lake City
     Investors: [ ]
   - Name: OpsLevel
@@ -139,7 +139,7 @@ Investments:
   - Name: Arena
     Home: https://arena.im/
     Desc: Add Live Group Chat to Your Website
-    Status:
+    Status: Seed
     Location: Silicon Valley
     Investors: [ RedPoint ]
   - Name: KSOC
