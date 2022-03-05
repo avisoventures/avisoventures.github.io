@@ -145,7 +145,7 @@ Investments:
   - Name: KSOC
     Home: https://www.ksoc.com/
     Desc: Automatically remediate Kubernetes security risks. 
-    Status:
+    Status: Seed
     Location: San Francisco
-    Investors: [ ]
+    Investors: [ ".406" ]
 
