@@ -2,12 +2,15 @@
 <div>
 	{{ $scratch := newScratch }}
 	{{ $scratch.Set "Key" "Name" }}
+	{{ $scratch.Set "Order" "asc" }}
 	{{ with .RelPermalink }}
 	{{ if in . "by-location" }}
 	{{ $scratch.Set "Key" "Location" }}
+	{{ $scratch.Set "Order" "asc" }}
 	{{ end }}
 	{{ if in . "by-stage" }}
-	{{ $scratch.Set "Key" "Status" }}
+	{{ $scratch.Set "Key" "Stage" }}
+	{{ $scratch.Set "Order" "desc" }}
 	{{ end }}
 	{{ end }}
 
@@ -26,7 +29,7 @@
 			</tr>
 		</thead>
 		<tbody>
-			{{ range sort .Site.Data.portfolio.Investments ($scratch.Get "Key")  "asc" }}
+			{{ range sort .Site.Data.portfolio.Investments ($scratch.Get "Key") ($scratch.Get "Order" ) }}
 			<tr>
 				<td><a href="{{ .Home }}"><img width="50" src="/assets/icons/{{ .Name | urlize }}.jpg"></a></td>
 				<td><h5><a class="text-reset text-decoration-none" href="{{ .Home }}">{{ .Name }}</a></h5>
