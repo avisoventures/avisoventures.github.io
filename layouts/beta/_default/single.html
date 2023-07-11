@@ -1,0 +1,6 @@
+{{ partial "header.html" . }}
+<div>
+{{- if .Params.draft }}<p id="draft">&#x26A0; Draft &#x26A0;</p>{{ end -}}
+{{ .Content }}
+</div>
+{{ partial "footer.html" . }}

@@ -1,177 +1,102 @@
 Investments:
-  - Name: Fleetsmith
-    Home: https://www.fleetsmith.com/
-    Desc: Automate Apple device management
-    Location: San Francisco
-    Investors: [ Index, Tiger, Menlo ]
-    Stage: 9
-    Status: Acquired by Apple 
-  - Name: Shujinko
-    Home: https://www.shujinko.io/
-    Desc: Quickly capture data and manage compliance across multiple audits, frameworks, and Cloud/SaaS/Hybrid systems
-    Location: Seattle
-    Investors: [ Vulcan ]
-    Stage: 9
-    Status: Aquired by A-LIGN
-  - Name: Rolebot
-    Home: https://www.rolebot.io/
-    Desc: World’s 1st AI-powered Job Board for Passive Talent, delivering the other 75% that never applies.
-    Stage: 0
-    Status: Seed
-    Location: Los Angeles
-    Investors: [ ]
-  - Name: ProdPerfect
-    Home: https://prodperfect.com/
-    Desc: Autonomous, Continuous E2E Testing for Modern Dev Teams
-    Stage: 1
-    Status: Series A
-    Location: San Francisco
-    Investors: []
-  - Name: Altitude Networks
-    Home: https://altitudenetworks.com/
-    Desc: Quickly identify, remediate, and prevent data loss in the cloud with one click.
-    Location: San Francisco
-    Stage: 1
-    Status: Series A
-    Investors: [ Felicis, Slack ]
-  - Name: Capbase
-    Home: https://capbase.com/
-    Desc: Incorporate your startup and raise funds in days.
-    Stage: 0
-    Status: Seed
-    Location: San Francisco
-    Investors: []
-  - Name: Open Raven
-    Home: https://www.openraven.com/
-    Desc: Data security visibility and compliance for the cloud.
-    Location: Los Angeles
-    Stage: 1
-    Status: Series A
-    Investors: [ Upfront, Kleiner Perkins ]
-  - Name: Propelo 
-    Home: https://www.propelo.ai/
-    Desc: Actionable insights to improve efficiency and agile velocity in every stage of your DevOps Lifecycle.
-    Stage: 0
-    Status: Seed
-    Location: Silicon Valley
-    Investors: []
-  - Name: Atolio
-    Home: https://www.atolio.com/
-    Desc: Connect every app, service and asset across the business—giving the right people the answers they need, when they need them, no matter the source.
-    Stage: 0
-    Status: Seed
-    Location: San Francisco
-    Investors: []
-  - Name: Opal
-    Home: https://opal.dev/
-    Desc: Provide engineers with complete onboarding, grant granular short-lived access across the company, and automate painful compliance workflows.
-    Stage: 0
-    Status: Seed
-    Location: San Francisco
-    Investors: [ Greylock ]
-  - Name: Material Security
-    Home: https://material.security/
-    Desc: Extend Zero Trust Security to Email
-    Stage: 2
-    Status: Series B
-    Investors: [ a16z ]
-    Location: San Francisco
-  - Name: Britive
-    Home: https://www.britive.com/
-    Desc: Maintain Zero Standing Privileges Across Your Multi-Cloud Environment
-    Location: Los Angeles
-    Investors: [ Upfront ]
-    Stage: 1
-    Status: Series A
-  - Name: OmniPanel
-    Home: https://www.omnipanel.io/
-    Desc: The internal knowledge base for your e-commerce data
-    Investors: [ CRV, Alumni ]
-    Stage: 0
-    Status: Seed
-    Location: Los Angeles
-  - Name: Lucidum
-    Home: https://lucidum.io/
-    Desc: AI-Powered Cybersecurity Asset Discovery and Management Platform
-    Stage: 1
-    Status: Series A
-    Location: Silicon Valley
-    Investors: [ GGV ]
-  - Name: Cyware
-    Home: https://cyware.com/
-    Desc: Cyber Fusion. Next-generation SOAR and Threat Intelligence Solved
-    Stage: 2
-    Status: Series B
-    Location: New York City
-    Investors: [ ]
-  - Name: Cyvatar
-    Desc: Automated & fully managed cybersecurity services for startups and small to medium-sized enterprises.
-    Home: https://cyvatar.ai/
-    Stage: 1
-    Status: Series A
-    Location: Los Angeles
-    Investors: [ ]
-  - Name: Mimoto
-    Home: https://www.mimoto.ai/
-    Desc: Know who is interacting with your systems.
-    Stage: 0
-    Status: Seed
-    Location: San Francisco
-    Investors: [ ]
+  - Name: Quandri
+    Link: https://quandri.io/
+    Country: CA
+    Category: Vertical
+    Description: Insurance automation
+  - Name: SpectreOps
+    Link: https://specterops.io/
+    Country: CA
+    Category: Security
+    Description: Attack discovery
+  - Name: RunWhen
+    Link: https://www.runwhen.com/
+    Country: US
+    Category: DevOps
+    Description: Kubernetes operations
+  - Name: dataspan.ai
+    Link: https://www.dataspan.ai/
+    Country: IL
+    Category: AI
+    Description: AI vision tools
+  - Name: RiskProfiler
+    Link: https://www.runwhen.com/
+    Country: US
+    Category: Security
+    Description: Risk profiling and scoring
+  - Name: Nuerelo
+    Link: https://www.neurelo.com/
+    Country: US
+    Category: Data
+    Description: Data access platform
+  - Name: Altostra
+    Country: IL
+    Link: https://www.altostra.com/
+    Category: DevOps
+    Description: Cloud deployment tools
+  - Name: VulnCheck
+    Link: https://vulncheck.com/
+    Country: US
+    Category: Security
+    Description: Vulnerability intel
+  - Name: Bowtie Works
+    Link: https://www.bowtie.works/
+    Country: US
+    Category: Security
+    Description: Remote Access
+  - Name: SURF Security
+    Link: https://www.surf.security/
+    Country: IL
+    Category: Security
+    Description: Remote Access
+  - Name: Protect AI
+    Link: https://protectai.com/
+    Country: US
+    Category: AI
+    Description: DevOps for AI
+  - Name: Resourcely
+    Link: https://www.resourcely.io/
+    Country: US
+    Category: DevOps
+    Description: Resource mangement
+  - Name: Akuity
+    Link: https://akuity.io/
+    Country: US
+    Category: DevOps
+    Description: Enterprise Kubernetes
+  - Name: Nira
+    Link: https://nira.com/
+    Country: US
+    Category: Security
+    Description: Access Control
+  - Name: Phylum
+    Link: https://www.phylum.io/
+    Country: US
+    Category: Security
+    Description: Software Supply Chain
   - Name: Privacy Dynamics
-    Home: https://www.privacydynamics.io/
-    Desc: Unleash creative intelligence with faster, safer, and more actionable data. Stop letting privacy hold you back.
-    Stage: 0
-    Status: Seed
-    Investors: [ Slack ]
-    Location: Seattle
-  - Name: SGNL
-    Home: https://sgnl.ai/
-    Desc: Simplifying Enterprise Authorization
-    Stage: 0
-    Status: Seed
-    Location: Silicon Valley
-    Investors: [ ]
-  - Name: Nucleus Security
-    Home: https://nucleussec.com/
-    Desc: Automated vulnerability management solution that accelerates vulnerability response and enhances application security.
-    Stage: 1
-    Status: Series A
-    Location: Tampa
-    Investors: [ ]
-  - Name: Socket
-    Home: https://socket.dev/
-    Desc: Secure your JavaScript supply chain
-    Location: Remote
-    Investors: [ ]
-    Stage: 0
-    Status: Seed
-  - Name: alphaMountain
-    Home: https://www.alphamountain.ai/
-    Desc: Domain and IP intelligence feeds for cyber protection and investigational platforms based on continuously trained AI models. 
-    Stage: 0
-    Status: Seed
-    Location: Salt Lake City
-    Investors: [ ]
-  - Name: OpsLevel
-    Home: https://www.opslevel.com/
-    Desc: The Best Way to Organize & Manage Microservices
-    Stage: 1
-    Status: Series A
-    Location: Toronto
-    Investors: [ Threshold ]
-  - Name: Arena
-    Home: https://arena.im/
-    Desc: Add Live Group Chat to Your Website
-    Stage: 0
-    Status: Seed
-    Location: Silicon Valley
-    Investors: [ RedPoint ]
-  - Name: KSOC
-    Home: https://www.ksoc.com/
-    Desc: Automatically remediate Kubernetes security risks. 
-    Stage: 0
-    Status: Seed
-    Location: San Francisco
-    Investors: [ ".406" ]
+    Link: https://www.privacydynamics.io/
+    Country: US
+    Category: Data
+    Description: Data sharing
+  - Name: Bobsled
+    Link: https://www.bobsled.co/
+    Country: EU
+    Category: Data
+    Description: Data sharing
+  - Name: 1up
+    Link: https://1up.ai/
+    Country: US
+    Category: AI
+    Description: Automated competitive analysis
+  - Name: DagsHub
+    Link: https://dagshub.com/
+    Country: IL
+    Category: Data
+    Description: Data pipeline management
+  - Name: SeeData.io
+    Link: https://www.seedata.io/
+    Country: UK
+    Category: Security
+    Description: Deception markets
 

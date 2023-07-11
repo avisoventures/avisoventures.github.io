@@ -1,14 +1,5 @@
 {{ partial "header.html" . }}
-<div>
-	{{ .Content }}
-	<section>
-		<ul>
-			{{ range .Data.Pages.ByDate.Reverse -}}
-			{{ if eq .Type "post" }}
-			<li>{{ if .Params.draft }}&#x26A0; {{ end }}<a href="{{ .Permalink | relURL }}">{{ .Title }}</a></li>
-			{{ end }}
-			{{ end -}}
-		</ul>
-	</section>
+GOT INDEX DEFAULT
+< div> {{ .Content }}
 </div>
 {{ partial "footer.html" . }}
