@@ -3,7 +3,6 @@ languageCode = 'en-us'
 title = 'Aviso Ventures'
 enableRobotsTXT = true
 copyright = "&copy; Aviso Ventures"
-googleAnalytics = 'G-MEASUREMENT_ID'
 
 disableKinds = ["sitemap"]
 

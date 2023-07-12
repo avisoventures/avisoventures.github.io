@@ -1,6 +1,6 @@
 
 serve:
-	hugo --buildDrafts server
+	hugo --minify --buildDrafts server
 
 install:
 	./scripts/install-hugo.sh
