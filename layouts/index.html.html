@@ -1,7 +1,10 @@
 {{ partial "header.html" . }}
 <div>
-  <div class="text-centerx">
-    <img src="/assets/brand/icon-name-blue-black.svg" alt="Aviso Ventures Logo" width="95%" class="d-inline-block align-text-top"></a>
+  <div>
+    <!-- inline to save a network round trip
+    <img src="/assets/brand/icon-name-blue-black.svg" alt="Aviso Ventures Logo" width="95%" class="d-inline-block align-text-top">
+    -->
+    {{ partial "icon-name-blue-black.svg" . }}
   </div>
   <div>
     <h2 class="display-5 lh-1 mt-3 mb-2">Investing in <span class="text-nowrap">Enterprise Software<span></h1>
