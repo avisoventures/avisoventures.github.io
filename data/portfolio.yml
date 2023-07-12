@@ -4,7 +4,7 @@ Investments:
     Country: CA
     Category: Vertical
     Description: Insurance automation
-  - Name: SpectreOps
+  - Name: SpecterOps
     Link: https://specterops.io/
     Country: CA
     Category: Security
@@ -99,4 +99,19 @@ Investments:
     Country: UK
     Category: Security
     Description: Deception markets
+  - Name: Epsio
+    Link: https://www.epsio.io/
+    Country: IL
+    Category: Data
+    Description: Data query optimization
+  - Name: Tynrose
+    Link: https://www.tynrose.com/
+    Country: US
+    Category: Security/IT
+    Description: Managed Services
+  - Name: Nucleus Security
+    Link: https://nucleussec.com/
+    Country: US
+    Category: Security
+    Description: Vulnerability management
 
