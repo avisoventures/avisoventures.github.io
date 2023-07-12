@@ -5,5 +5,5 @@ enableRobotsTXT = true
 copyright = "&copy; Aviso Ventures"
 googleAnalytics = 'G-MEASUREMENT_ID'
 
-[taxonomies]
-  author = "Aviso Ventures"
+disableKinds = ["sitemap"]
+
