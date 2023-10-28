@@ -1,0 +1,122 @@
+Investments:
+  - Name: Quandri
+    Link: https://quandri.io/
+    Country: CA
+    Category: Vertical
+    Description: Insurance automation
+  - Name: SpecterOps
+    Link: https://specterops.io/
+    Country: CA
+    Category: Security
+    Description: Attack discovery
+  - Name: RunWhen
+    Link: https://www.runwhen.com/
+    Country: US
+    Category: DevOps
+    Description: Kubernetes operations
+  - Name: dataspan.ai
+    Link: https://www.dataspan.ai/
+    Country: IL
+    Category: AI
+    Description: AI vision tools
+  - Name: RiskProfiler
+    Link: https://www.runwhen.com/
+    Country: US
+    Category: Security
+    Description: Risk profiling
+  - Name: Neurelo
+    Link: https://www.neurelo.com/
+    Country: US
+    Category: Data
+    Description: Data access platform
+  - Name: Altostra
+    Country: IL
+    Link: https://www.altostra.com/
+    Category: DevOps
+    Description: Cloud deployment tools
+  - Name: VulnCheck
+    Link: https://vulncheck.com/
+    Country: US
+    Category: Security
+    Description: Vulnerability intel
+  - Name: Bowtie Works
+    Link: https://www.bowtie.works/
+    Country: US
+    Category: Security
+    Description: Remote access
+  - Name: SURF Security
+    Link: https://www.surf.security/
+    Country: IL
+    Category: Security
+    Description: Remote access
+  - Name: Protect AI
+    Link: https://protectai.com/
+    Country: US
+    Category: AI
+    Description: DevOps for AI
+  - Name: Resourcely
+    Link: https://www.resourcely.io/
+    Country: US
+    Category: DevOps
+    Description: Resource mangement
+  - Name: Akuity
+    Link: https://akuity.io/
+    Country: US
+    Category: DevOps
+    Description: Enterprise Kubernetes
+  - Name: Nira
+    Link: https://nira.com/
+    Country: US
+    Category: Security
+    Description: Access control
+  - Name: Phylum
+    Link: https://www.phylum.io/
+    Country: US
+    Category: Security
+    Description: Software supply chain
+  - Name: Privacy Dynamics
+    Link: https://www.privacydynamics.io/
+    Country: US
+    Category: Data
+    Description: Data sharing
+  - Name: Bobsled
+    Link: https://www.bobsled.co/
+    Country: EU
+    Category: Data
+    Description: Data sharing
+  - Name: 1up
+    Link: https://1up.ai/
+    Country: US
+    Category: AI
+    Description: AI for GTM teams
+  - Name: DagsHub
+    Link: https://dagshub.com/
+    Country: IL
+    Category: Data
+    Description: Data pipeline management
+  - Name: SeeData.io
+    Link: https://www.seedata.io/
+    Country: UK
+    Category: Security
+    Description: Deception markets
+  - Name: Epsio
+    Link: https://www.epsio.io/
+    Country: IL
+    Category: Data
+    Description: Data query optimization
+  - Name: Tynrose
+    Link: https://www.tynrose.com/
+    Country: US
+    Category: Security/IT
+    Description: Managed Services
+  - Name: Nucleus Security
+    Link: https://nucleussec.com/
+    Country: US
+    Category: Security
+    Description: Vulnerability management
+  - Name: Sublime Security
+    Link: https://sublime.security/
+    Country: US
+    Category: Security
+    Description: Email attack mgmt
+
