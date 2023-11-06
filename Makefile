@@ -1,5 +1,6 @@
 
 serve:
+	hugo version
 	hugo --minify --buildDrafts server
 
 install:
