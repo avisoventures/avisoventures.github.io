@@ -29,11 +29,6 @@ Investments:
     Country: US
     Category: Data
     Description: Data access platform
-  - Name: Altostra
-    Country: IL
-    Link: https://www.altostra.com/
-    Category: DevOps
-    Description: Cloud deployment tools
   - Name: VulnCheck
     Link: https://vulncheck.com/
     Country: US
