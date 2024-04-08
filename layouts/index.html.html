@@ -28,7 +28,7 @@
           </td>
           <td>{{ .Country }}</td>
           <td>{{ .Category }}</td>
-          <td>{{ .Description}}</td>
+          <td><a class="text-reset text-decoration-none" href="{{ .Link }}">{{ .Description}}</a></td>
         </tr>
         {{ end }}
       </table>
