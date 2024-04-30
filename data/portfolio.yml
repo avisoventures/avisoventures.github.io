@@ -26,7 +26,7 @@ Investments:
     Description: Insurance automation
   - Name: SpecterOps
     Link: https://specterops.io/
-    Country: CA
+    Country: US
     Category: Security
     Description: Attack discovery
   - Name: RunWhen
@@ -96,7 +96,7 @@ Investments:
     Description: Data sharing
   - Name: Bobsled
     Link: https://www.bobsled.co/
-    Country: EU
+    Country: US
     Category: Data
     Description: Data sharing
   - Name: 1up
