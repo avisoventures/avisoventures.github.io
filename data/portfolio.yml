@@ -1,4 +1,19 @@
 Investments:
+  - Name: Depot.Dev
+    Link: https://depot.dev/
+    Country: US
+    Category: Infrastructure
+    Description: Docker on Steroids
+  - Name: Clairvoyant Intel
+    Link: https://www.clairvoyantintel.com/
+    Country: US
+    Category: Security
+    Description: Software Supply Chain
+  - Name: Nebulock
+    Link: https://nebulock.io/
+    Country: US
+    Category: Security
+    Description: Endpoint Matters
   - Name: Vesal.io
     Link: https://www.vesal.io/
     Country: US
