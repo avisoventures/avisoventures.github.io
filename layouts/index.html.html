@@ -30,7 +30,7 @@
           <td><a class="text-reset text-decoration-none" href="{{ .Link }}">{{ .Description}}</a></td>
         </tr>
         {{ end }}
-      <tr><td colspan=3><h2 class="font-sans-serif fw-light mb-3">Exits</h2></td></td>
+      <tr><td colspan=3><h2 class="font-sans-serif fw-light mb-3">Exits</h2></td></tr>
 
         {{ range (sort .Site.Data.portfolio.Exits "Name" "asc") }}
         <tr>
