@@ -26,9 +26,18 @@
         <tr>
           <td><a class="text-reset text-decoration-none" href="{{ .Link }}">{{ .Name }}</a>
           </td>
-          <td>{{ .Country }}</td>
           <td>{{ .Category }}</td>
           <td><a class="text-reset text-decoration-none" href="{{ .Link }}">{{ .Description}}</a></td>
+        </tr>
+        {{ end }}
+      <tr><td colspan=3><h2 class="font-sans-serif fw-light mb-3">Exits</h2></td></td>
+
+        {{ range (sort .Site.Data.portfolio.Exits "Name" "asc") }}
+        <tr>
+          <td><a class="text-reset text-decoration-none" href="{{ .Link }}">{{ .Name }}</a>
+          <td>{{ .Category }}</td>
+          <td>Acquired by <a class="text-reset text-decoration-none" href="{{ .Link }}">{{ .Host }}</a>
+          </td>
         </tr>
         {{ end }}
       </table>

@@ -1,3 +1,16 @@
+Exits:
+  - Name: Phylum
+    Host: Veracode
+    Link: https://www.veracode.com
+    Country: US
+    Category: Security
+    Description: Software supply chain
+  - Name: Nira
+    Host: Dropbox
+    Link: https://www.dropbox.com
+    Country: US
+    Category: Security
+    Description: Access control
 Investments:
   - Name: Depot.Dev
     Link: https://depot.dev/
@@ -94,16 +107,6 @@ Investments:
     Country: US
     Category: DevOps
     Description: Enterprise Kubernetes
-  - Name: Nira
-    Link: https://nira.com/
-    Country: US
-    Category: Security
-    Description: Access control
-  - Name: Phylum
-    Link: https://www.phylum.io/
-    Country: US
-    Category: Security
-    Description: Software supply chain
   - Name: Bobsled
     Link: https://www.bobsled.co/
     Country: US
