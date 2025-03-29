@@ -1,0 +1,15 @@
+{{ define "main" }}
+{{- if .Params.draft }}<p id="draft">&#x26A0; Draft &#x26A0;</p>{{ end -}}
+<div class="font-source-sans fs-4">
+{{ .Content }}
+<hr>
+{{ with .Params.liDirect }}
+<p>
+Original post on <a href="{{ . }}">LinkedIn</a>:
+</p>
+{{ end }}
+</div>
+{{ with .Params.liEmbed }}
+<iframe src="https://www.linkedin.com/embed/feed/update/{{ . }}" height="1000"  width="100%" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+{{ end }}
+{{ end }}

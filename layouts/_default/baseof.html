@@ -13,8 +13,21 @@
 
   gtag('config', 'G-3WD0DPZLQM');
 </script>
+<!-- <script src="/color-modes.js"></script> -->
+<link rel="preload" href="/fonts/SourceSans3-Regular.otf.woff2" as="font" type="font/woff2" crossorigin />
 <link href="/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <style>
+@font-face{
+    font-family: 'Source Sans';
+    font-display: normal;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    src: url('/fonts/SourceSans3-Regular.otf.woff2') format('woff2');
+}
+.font-source-sans {
+  font-family: 'Source Sans' !important;
+}
 .font-sans-serif {
   font-family: var(--bs-font-sans-serif) !important;
 }
@@ -33,6 +46,7 @@
 <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
 <meta name="msapplication-TileColor" content="#da532c">
 <meta name="theme-color" content="#ffffff">
+
 {{ partial "header-extra.html" }}
 </head>
 <body>
@@ -59,3 +73,19 @@
     </div>
 	</div>
 </nav>
+<div>
+{{ block "main" . }}
+{{- if .Params.draft }}<p id="draft">&#x26A0; Draft &#x26A0;</p>{{ end -}}
+{{ .Content }}
+{{ end }}
+</div>
+<div><hr>
+	<div class="small text-center mb-3">{{ .Site.Copyright | safeHTML }}</div>
+</div>
+</div><!-- column -->
+</div><!-- row    -->
+</div><!-- container -->
+</main>
+<script src="/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
