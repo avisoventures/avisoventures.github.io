@@ -12,13 +12,13 @@ params:
 ---
 So you are thinking about "going into management." Here's the problem. You don't know what management even is.
 
-➡️You don't have visbility into what your boss even does. Your crappy 1-1s with your boss and various reporting is a small fraction of the job. The rest you don't see. 
+➡️  You don't have visbility into what your boss even does. Your crappy 1-1s with your boss and various reporting is a small fraction of the job. The rest you don't see. 
 
-➡️ Most startups have "quasi-management." The management for initial build out is very different than what management is at a mature company.
+➡️  Most startups have "quasi-management." The management for initial build out is very different than what management is at a mature company.
 
-➡️ Management, for skilled, creative people, is a really new field. Like less than 100 years old. It's changing all the time as we, meaning humans, figure it out.
+➡️  Management, for skilled, creative people, is a really new field. Like less than 100 years old. It's changing all the time as we, meaning humans, figure it out.
 
-➡️ A lot of people in management should not be in management. That's all I'll say on that.🥺
+➡️  A lot of people in management should not be in management. That's all I'll say on that.🥺
 
 About once a week someone asks for career advice on something. When it comes to management, I tell them to read:
 
