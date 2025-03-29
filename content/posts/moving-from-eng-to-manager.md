@@ -12,7 +12,7 @@ params:
 ---
 So you are thinking about "going into management." Here's the problem. You don't know what management even is.
 
-➡️  You don't have visbility into what your boss even does. Your crappy 1-1s with your boss and various reporting is a small fraction of the job. The rest you don't see. 
+➡️  You don't have visibility into what your boss even does. Your crappy 1-1s with your boss and various reporting is a small fraction of the job. The rest you don't see. 
 
 ➡️  Most startups have "quasi-management." The management for initial build out is very different than what management is at a mature company.
 
