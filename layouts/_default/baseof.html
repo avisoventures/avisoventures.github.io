@@ -31,6 +31,12 @@
 .font-sans-serif {
   font-family: var(--bs-font-sans-serif) !important;
 }
+/* Container-Md-Max
+   Oddly Bootstrap doesn't have this to match the breakpoints
+*/
+.width-md-max {
+  max-width: 720px;
+}
 </style>
 <title>{{ .Title }}</title>
 <meta name="description" content="{{ .Description }}">
@@ -51,9 +57,14 @@
 </head>
 <body>
 <main>
-<div class="container">
-<div class="row justify-content-center">
-<div class="col col-md-9 col-lg-8 col-xl-7">
+  <!-- BS: other container[-SIZE] types
+     have all sorts of mediaquery breakpoints
+     container-fluid just sets width:100%
+     and padding
+  -->
+<div class="container-fluid width-md-max">
+<div class="xrow">
+<div class="xcol">
 
 <!-- nav bar -->
 <nav class="navbar navbar-light navbar-expand" aria-label="navbar">
