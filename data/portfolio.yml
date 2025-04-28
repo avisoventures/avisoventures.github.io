@@ -1,4 +1,10 @@
 Exits:
+  - Name: Protect AI
+    Link: https://protectai.com/
+    Host: Palo Alto
+    Country: US
+    Category: AI
+    Description: DevOps for AI
   - Name: Phylum
     Host: Veracode
     Link: https://www.veracode.com
@@ -92,11 +98,6 @@ Investments:
     Country: UK
     Category: Security
     Description: Remote access
-  - Name: Protect AI
-    Link: https://protectai.com/
-    Country: US
-    Category: AI
-    Description: DevOps for AI
   - Name: Resourcely
     Link: https://www.resourcely.io/
     Country: US
