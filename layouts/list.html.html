@@ -1,0 +1,63 @@
+{{ define "main" }}
+<div>
+  <div>
+    <!-- inline to save a network round trip
+    <img src="/assets/brand/icon-name-blue-black.svg" alt="Aviso Ventures Logo" width="95%" class="d-inline-block align-text-top">
+    -->
+    {{ partial "icon-name-blue-black.svg" . }}
+  </div>
+  <div>
+    <h2 class="display-5 lh-1 mt-3 mb-2 text-center">Investing in <span class="text-nowrap">Enterprise Software<span></h1>
+        <p class="lead text-center">Specializing in Early Stage Cybersecurity, Infrastructure, Data, AI.
+        </p>
+        <p class="lead text-center">We Know It, Because We've Done It. <a href="https://21166818.hs-sites.com/aviso-ventures-contact">Learn more.</a>
+        </p>
+  </div>
+</div>
+{{ .Content }}
+<hr>
+<div>
+  <a name="portfolio">
+    <section>
+      <h2 class="fw-light mb-3">Selected Portfolio</h2>
+      <table class="table table-sm table-borderless small font-monospace">
+        <thead></thead>
+        {{ range (sort .Site.Data.portfolio.Investments "Name" "asc") }}
+        <tr>
+          <td><a class="text-reset text-decoration-none" href="{{ .Link }}">{{ .Name }}</a>
+          </td>
+          <td>{{ .Category }}</td>
+          <td><a class="text-reset text-decoration-none" href="{{ .Link }}">{{ .Description}}</a></td>
+        </tr>
+        {{ end }}
+      <tr><td colspan=3><h2 class="font-sans-serif fw-light mb-3">Exits</h2></td></tr>
+
+        {{ range (sort .Site.Data.portfolio.Exits "Name" "asc") }}
+        <tr>
+          <td><a class="text-reset text-decoration-none" href="{{ .Link }}">{{ .Name }}</a>
+          <td>{{ .Category }}</td>
+          <td>Acquired by <a class="text-reset text-decoration-none" href="{{ .Link }}">{{ .Host }}</a>
+          </td>
+        </tr>
+        {{ end }}
+      </table>
+</div>
+<hr>
+<div>
+  <a name="team"> <h2 class="fw-light mb-3">Team</h2>
+
+    <section>
+      <div class="clearfix">
+        <img alt="Nick Galbreath" loading="lazy" src="/assets/bio/nick-galbreath.jpg" width="150px" height="150px" class="img-thumbnail col-3 float-end mb-3 ms-3">
+        <h3>Nick Galbreath</h3>
+        {{ partial "bio-nickg.html" . }}
+      </div>
+      <div class="clearfix">
+        <img alt="Andrew Peterson" loading="lazy"  src="/assets/bio/andrew-peterson.jpg" width="150px" height="150px" class="img-thumbnail col-3 float-end mb-3 ms-3">
+      <h3>Andrew Peterson</h3>
+        {{ partial "bio-andrew.html" . }}
+      </div>
+    </section>
+
+</div>
+{{ end }}

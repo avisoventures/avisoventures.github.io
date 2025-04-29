@@ -10,7 +10,6 @@
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'G-3WD0DPZLQM');
 </script>
 <!-- <script src="/color-modes.js"></script> -->
@@ -31,12 +30,6 @@
 .font-sans-serif {
   font-family: var(--bs-font-sans-serif) !important;
 }
-/* Container-Md-Max
-   Oddly Bootstrap doesn't have this to match the breakpoints
-*/
-.width-md-max {
-  max-width: 960px;
-}
 </style>
 <title>{{ .Title }}</title>
 <meta name="description" content="{{ .Description }}">
@@ -52,17 +45,16 @@
 <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
 <meta name="msapplication-TileColor" content="#da532c">
 <meta name="theme-color" content="#ffffff">
-
+<style>
+.max-w-lg {
+  max-width: 960px;
+}
+</style>
 {{ partial "header-extra.html" }}
 </head>
 <body>
 <main>
-  <!-- BS: other container[-SIZE] types
-     have all sorts of mediaquery breakpoints
-     container-fluid just sets width:100%
-     and padding
-  -->
-<div class="container-fluid width-md-max">
+<div class="container-lg max-w-lg">
 <div class="xrow">
 <div class="xcol">
 
