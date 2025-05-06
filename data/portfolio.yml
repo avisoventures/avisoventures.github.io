@@ -18,6 +18,26 @@ Exits:
     Category: Security
     Description: Access control
 Investments:
+  - Name: Tracel 
+    Link: https://tracel.ai
+    Country: CA
+    Category: AI
+    Description: AI Infrastructure
+  - Name: Select.Dev
+    Link: https://select.dev
+    Country: CA
+    Category: Data
+    Description: Snowflake Optimization
+  - Name: Authentik
+    Link: https://goauthentik.io
+    Country: US
+    Category: Security
+    Description: Identity Management
+  - Name: Tern.sh
+    Link: https://tern.sh
+    Country: US
+    Category: AI
+    Description: AI Software Migrations
   - Name: Bismuth.sh
     Link: https://bismuth.sh
     Country: US
