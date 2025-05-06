@@ -2,6 +2,9 @@
 title: "Moving from Engineer to Manager"
 intro: "⁉️Thinking of Moving from Engineer to Manager?🙋 Here's the book I recommend to read first. 📖 You can't beat Drucker."
 date: 2025-02-02
+tags: 
+    - engineering
+    - management
 params:
     liDirect: https://www.linkedin.com/posts/nick-galbreath-1890794_thinking-of-moving-from-engineer-to-manager-activity-7303239993487986688-UsK2
     liEmbed: urn:li:share:7303239990845587456 
