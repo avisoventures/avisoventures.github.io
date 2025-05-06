@@ -18,6 +18,11 @@ Exits:
     Category: Security
     Description: Access control
 Investments:
+  - Name: Bismuth.sh
+    Link: https://bismuth.sh
+    Country: US
+    Category: AI
+    Description: AI Software Devel
   - Name: Depot.Dev
     Link: https://depot.dev/
     Country: US
