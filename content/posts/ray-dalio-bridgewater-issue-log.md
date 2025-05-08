@@ -1,18 +1,21 @@
 ---
+#spells add Bridgewater Dalio
 title: Learning from Mistakes with an Issue Log for Business Operations
 date: 2025-05-01
+team:
+  - Nick Galbreath
 params:
     liDirect: https://www.linkedin.com/posts/nick-galbreath-1890794_devops-devops-activity-7323745729179504641-dASO?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAC4tLkBr8UpZeP72v80UbYcwSC9_nF8d04
     liEmbed: urn:li:share:7323745726000222208
 ---
 # Learning from Mistakes with an Issue Log for Business Operations
 
-Ray Dalio mentiones in his book "Principles," the Issue Log that was used to learn from mistakes and radically improve the culture and processes at Bridgewater. 
+Ray Dalio mentions in his book "Principles," the Issue Log that was used to learn from mistakes and radically improve the culture and processes at Bridgewater. 
 
 It works like this:
 
 * Errors or mistakes go in the Issue Log, with description, severity and "who was responsible"
-* If it goes in the log, all is ok
+* If it goes in the log, all is OK
 * If mistake is found, and not in the log, there will be problems.
 * "Management" needs to review the issue log in a timely, regular manner with some process.
 
@@ -21,7 +24,7 @@ Some clarifications:
 * "Who was responsible" I assume is more like "who touched the problem last" or "who discovered the problem".
 * While he claims it was applied company-wide, it likely works best for parts of the company with frequent semi-manual transactions.
 * The last point, where things that going into log needs be reviewed was only implied.
-* This is a major time and management committment.
+* This is a major time and management commitment.
 * You'll need some scale in order to make this work.
 
 It's not an exact mapping to DevOps style "Blameless Postmortems" but perhaps similar in spirit.
@@ -29,7 +32,7 @@ It's not an exact mapping to DevOps style "Blameless Postmortems" but perhaps si
 The Original Source
 ===================
 
-It's interesting, that 20-30 later, Ray Dalio remembers this, and thought it was crucial for the success of the company, and devotes 3 pages ot it in his book Principles. Interestingly, the Issue Log, or Error Log as it was originally called, is not in the index.
+It's interesting, that 20-30 years later, Ray Dalio remembers this, and thought it was crucial for the success of the company, and devotes 3 pages to it in his book Principles. Interestingly, the Issue Log, or Error Log as it was originally called, is not in the index.
 
 In my edition of Principles, it starts on page 61-62:
 
