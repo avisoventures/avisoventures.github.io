@@ -35,11 +35,6 @@ Investments:
     Country: CA
     Category: AI
     Description: AI Infrastructure
-  - Name: Select.Dev
-    Link: https://select.dev
-    Country: CA
-    Category: Data
-    Description: Snowflake Optimization
   - Name: Authentik
     Link: https://goauthentik.io
     Country: US
