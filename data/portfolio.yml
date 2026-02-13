@@ -1,4 +1,10 @@
 Exits:
+  - Name: SGNL
+    Link: https://sgnl.ai/
+    Host: Crowdstrike
+    Country: US
+    Description: Identity Protection
+    Category: Security
   - Name: Protect AI
     Link: https://protectai.com/
     Host: Palo Alto
