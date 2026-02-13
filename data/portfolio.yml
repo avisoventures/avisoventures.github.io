@@ -17,6 +17,17 @@ Exits:
     Country: US
     Category: Security
     Description: Access control
+  - Name: Resourcely
+    Host: Anysphere
+    Link: https://www.resourcely.io/
+    Country: US
+    Category: DevOps
+    Description: Resource mangement
+  - Name: Select Dev
+    Host: DoiT
+    Link: https://select.dev/
+    Country: CA
+    Description: Data
 Investments:
   - Name: Tracel 
     Link: https://tracel.ai
@@ -69,7 +80,7 @@ Investments:
     Category: AI
     Description: AI Narcotics
   - Name: InstaSecure
-    Link: https://instasecureinc.com/
+    Link: https://www.instasecure.ai/
     Country: US
     Category: Security
     Description: Cloud Perimeters
@@ -103,11 +114,6 @@ Investments:
     Country: US
     Category: Security
     Description: Risk profiling
-  - Name: Neurelo
-    Link: https://www.neurelo.com/
-    Country: US
-    Category: Data
-    Description: Data access platform
   - Name: VulnCheck
     Link: https://vulncheck.com/
     Country: US
@@ -123,11 +129,6 @@ Investments:
     Country: UK
     Category: Security
     Description: Remote access
-  - Name: Resourcely
-    Link: https://www.resourcely.io/
-    Country: US
-    Category: DevOps
-    Description: Resource mangement
   - Name: Akuity
     Link: https://akuity.io/
     Country: US
