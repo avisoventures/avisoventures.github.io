@@ -36,6 +36,31 @@ Exits:
     Category: Data
     Description: Data
 Investments:
+  - Name: Nimble Security
+    Link: https://nimble.security/
+    Country: US
+    Category: Security
+    Description: AI Network Security
+  - Name: Zero Watch
+    Link: https://zerowatch.ai/
+    Country: US
+    Category: Infra
+    Description: Predictive Ops
+  - Name: Mallory
+    Link: https://zerowatch.ai/
+    Country: US
+    Category: Security
+    Description: Modern Threat Intel
+  - Name: Sondera
+    Link: https://www.sondera.ai/
+    Country: US
+    Category: AI
+    Description: AI Behavior Guardrails
+  - Name: DevArmor
+    Link: https://www.devarmor.com/
+    Country: US
+    Category: Security
+    Description: AppSec Threat Modeling
   - Name: Tracel 
     Link: https://tracel.ai
     Country: CA
